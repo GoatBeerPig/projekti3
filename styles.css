@@ -1,0 +1,53 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: center;
+  width: 25%;
+}
+th {
+  background-color: #666699;
+}
+
+
+.stroked{ text-decoration: line-through; }
+
+
+
+h2 {
+  text-align: center;
+  background-color: black;
+  color:white;
+  margin: 0px;
+  padding: 8px;
+}
+
+
+.button-error {
+  background: red;
+  color: black;
+  float: left;
+}
+
+input[type=text] {
+  width: 97%
+  focus
+}
+
+#insert_button {
+  margin-top: 5px;
+  margin-left: 16px;
+  background-color: #00ff00;
+  color: black;
+}
+
+div {
+  background: black;
+  display: inline-block;
+  margin-top: -4px;
+}
+
+
+

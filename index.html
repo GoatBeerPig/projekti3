@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Proj1_ToDo</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css" />
+<link rel="stylesheet" href="styles.css">
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="ToDo.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h2>My To Do List</h2>
+
+
+  <table id="ToDo" class="pure-table pure-table-bordered">
+      <tr>
+        <th>What needs to be done?</th>
+        <th>When?</th>
+        <th>Who?</th>
+        <th></th>
+      </tr>
+      <tr class="stroked">
+        <td>Buy shrimps</td>
+        <td>Yesterday</td>
+        <td>Name</td>
+        <td><input type="button" id="delbtn" class="button-error pure-button" value="Clear"></td>
+      </tr>
+      
+  </table>
+
+
+
+<form class="pure-form pure-form-stacked">
+  <fieldset>
+      <div class="pure-g">
+          <div class="pure-u-1-4">
+              <input type="text" id="textfield" class="pure-u-1-4" required="" placeholder="What to do?"/>
+          </div>
+          <div class="pure-u-1-4">
+              <input type="text" id="textfield2" class="pure-u-1-4" placeholder="When to do?" />
+          </div>
+          <div class="pure-u-1-4">
+              <input type="text" id="textfield3" class="pure-u-1-4" placeholder="Who will do it?" />
+          </div>
+          <div class="pure-u-1-4">
+            <input type="button" id="insert_button" class="pure-button pure-button-active" value="Insert"/>
+          </div>
+      </div>
+      
+  
+  </fieldset>
+</form>
+
+</body>
+</html> 
